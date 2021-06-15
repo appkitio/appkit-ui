@@ -1,1 +1,3 @@
-# Svelte component library with integration of TailwindCSS and Storybook
+# Appkit Admin UI
+
+This will be used for internal backend use, and for admin plugins.
