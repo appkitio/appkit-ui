@@ -1,23 +1,13 @@
 {
 	"name": "appkit-ui",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"svelte": "src/index.js",
 	"module": "dist/index.mjs",
 	"main": "dist/index.js",
 	"description": "Appkit UI Library",
 	"homepage": "https://github.com/appkitio/appkit-ui#readme",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/***/***.git"
-	},
-	"author": "",
+	"author": "Appkit.io",
 	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/***/***/issues"
-	},
-	"keywords": [
-		"svelte"
-	],
 	"files": [
 		"src",
 		"dist",
