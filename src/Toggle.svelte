@@ -4,15 +4,12 @@
 
 </script>
 
-<div
-	class="flex items-center space-x-3"
-	on:click={() => {
-		value = !value;
-	}}
->
-	<button
-		type="button"
-		class="relative inline-flex flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none "
+<div class="flex items-center space-x-3">
+	<div
+		on:click={() => {
+			value = !value;
+		}}
+		class="relative inline-flex  h-6 w-11 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 outline-none "
 		class:bg-brand-primary={value}
 		class:bg-gray-200={!value}
 		role="switch"
@@ -25,9 +22,9 @@
 			class:translate-x-5={value}
 			class:translate-x-0={!value}
 		/>
-	</button>
+	</div>
 	{#if label}
-		<div class="text-gray-700 cursor-pointer font-bold text-base ">
+		<div class="text-base font-mono">
 			{label}
 		</div>
 	{/if}

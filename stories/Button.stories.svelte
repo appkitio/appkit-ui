@@ -27,7 +27,6 @@
 <Story
 	name="Button"
 	args={{
-		class: "twBtn",
 		slot: "Hello, Storybook!",
 	}}
 />
