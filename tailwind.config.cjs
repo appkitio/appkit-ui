@@ -2,7 +2,7 @@ const { tailwindExtractor } = require("tailwindcss/lib/lib/purgeUnusedStyles");
 const { name } = require("./package.json");
 
 module.exports = {
-	mode: "jit",
+	// mode: "jit",
 	purge: {
 		content: ["src/**/*.svelte", `node_modules/${name}/src/**/*.svelte`],
 		enable: true,
