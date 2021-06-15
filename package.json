@@ -6,6 +6,10 @@
 	"main": "dist/index.js",
 	"description": "Appkit UI Library",
 	"homepage": "https://github.com/appkitio/appkit-ui#readme",
+  "repository": {
+		"type": "git",
+		"url": "git+https://github.com/***/***.git"
+	},
 	"author": "Appkit.io",
 	"license": "MIT",
 	"files": [
