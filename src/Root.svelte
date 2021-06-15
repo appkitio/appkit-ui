@@ -7,5 +7,6 @@
 	@tailwind base;
 	@tailwind components;
 	@tailwind utilities;
+	@import "fonts.css";
 
 </style>

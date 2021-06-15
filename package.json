@@ -6,7 +6,7 @@
 	"main": "dist/index.js",
 	"description": "Appkit UI Library",
 	"homepage": "https://github.com/appkitio/appkit-ui#readme",
-  "repository": {
+	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/***/***.git"
 	},
@@ -60,8 +60,12 @@
 		"svelte-preprocess": "^4.7.3"
 	},
 	"dependencies": {
+		"@storybook/addons": "^6.2.9",
+		"@storybook/theming": "^6.2.9",
+		"@tailwindcss/forms": "^0.3.3",
 		"autoprefixer": "^10.2.6",
 		"cssnano": "^5.0.6",
+		"svelte-icons-pack": "^1.4.6",
 		"tailwindcss": "^2.1.4"
 	},
 	"peerDependencies": {

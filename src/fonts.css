@@ -1,0 +1,59 @@
+/* MONOLISA */
+@font-face {
+	font-family: 'MonoLisa';
+	src: url('./fonts/monolisa/MonoLisa-Regular.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MonoLisaMedium';
+	src: url('./fonts/monolisa/MonoLisa-Medium.otf');
+	font-weight: medium;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MonoLisaBold';
+	src: url('./fonts/monolisa/MonoLisa-Bold.otf');
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* CERAPRO */
+
+@font-face {
+	font-family: 'CeraPro';
+	src: url('./fonts/cerapro/CeraPro-Regular.woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'CeraProMedium';
+	src: url('./fonts/cerapro/CeraPro-Medium.woff');
+	font-weight: medium;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'CeraProBold';
+	src: url('./fonts/cerapro/CeraPro-Bold.woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* WORKSANS */
+
+@font-face {
+	font-family: 'WorkSans';
+	src: url('./fonts/worksans/WorkSans-VariableFont_wght.ttf') format('truetype-variations');
+	font-weight: 100 1000;
+	font-stretch: 25% 151%;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: 'CeraPro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}

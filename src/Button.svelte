@@ -4,16 +4,11 @@
 	 * @component
 	 */
 
-	let _class;
-	/**
-	 * Provide custom class selector
-	 * @required
-	 * @type {String}
-	 */
-	export { _class as class };
-
 </script>
 
-<button class="p-4 bg-blue-500 text-white rounded" on:click>
+<button
+	class="py-3 px-4 bg-brand-primary text-white font-bold outline-none rounded"
+	on:click
+>
 	<slot />
 </button>
